@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+}
+
+/* h2{
+    margin-bottom: 10px;
+} */
+
+body{
+    background-color: #8bc6ec;
+    min-height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+#user-input{
+    font-size: 2rem;
+}
+
+.cal-container{
+    background-color: black;
+    width: 70%;
+    max-width: 350px;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+
+
+.cal-text{
+    height: 50px;
+    width: 100%;
+}
+
+.cal-text p{
+    text-align: end;
+    width: 100%;
+    color: white;
+
+}
+
+button {
+    background: #333333;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 4%;
+    cursor: pointer;
+    height: 60px;
+    width: 100%;
+  }
+
+.cal-keys{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 3px;
+    grid-column-gap: 3px;
+}
+
+
+.operation{
+    background: #ff9501;
+}
+
+.not-color{
+    background: #333333;
+}
+
+.key-zero{
+    grid-column: span 2;
+    width: 100%;
+}
